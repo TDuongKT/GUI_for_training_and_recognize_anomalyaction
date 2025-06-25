@@ -1,0 +1,16 @@
+[
+  {
+    "video_path": "D:/WORK/project_2004/2206/videos/w2.mp4",
+    "datetime": "2025-06-25T17:21:30.300046",
+    "silhouette_score": 0.644688836888442,
+    "svm_score": 0.1955680747579393,
+    "svm_anomaly": true
+  },
+  {
+    "video_path": "D:/WORK/project_2004/2206/videos/w1.mp4",
+    "datetime": "2025-06-25T17:23:17.024256",
+    "silhouette_score": 0.7742055009291675,
+    "svm_score": 0.19411314427515292,
+    "svm_anomaly": true
+  }
+]

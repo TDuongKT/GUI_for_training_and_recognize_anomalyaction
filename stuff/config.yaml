@@ -1,0 +1,27 @@
+model:
+  num_classes: 4
+  image_size: [256, 256]
+data:
+  train_image_dir: "data/train/images"
+  train_annotation: "data/train/annotations/data.json"
+  val_image_dir: "data/val/images"
+  val_annotation: "data/val/annotations/data.json"
+  background_dir: "data/backgrounds"
+  category_ids: [1, 2, 3]  # Example: bottle (1), cup (2)
+  background_prob: 0.7
+training:
+  batch_size: 4
+  lr: 0.001
+  epochs: 50
+  best_model_path: "best_model.pth"
+  last_model_path: "last_model.pth"
+  loss: "dice"
+testing:
+  input_video_path: "data/r.mp4"
+  output_video_path: "output_segmented.mp4"
+  model_path: "best_model.pth"
+  colors:
+    - [0, 0, 0]       # Background: Black
+    - [0, 255, 0]     # Class 1 (bottle): Green
+    - [0, 0, 255]     # Class 2 (cup): Red
+    - [255, 0, 0]     # Class 3 (optional, e.g., plate): Blue

@@ -1,0 +1,58 @@
+2025-06-24 16:12:43,753 - ERROR - Config file not found. Using default config.
+2025-06-24 16:14:05,828 - INFO - Epoch 1/50 | Train Loss: 0.7186 | Val Loss: 0.7502 | Train IoU: 0.2486 | Val IoU: 0.2444 | Train Dice: 0.2667 | Val Dice: 0.2498
+2025-06-24 16:14:05,984 - INFO - Saved best model with Val IoU: 0.2444
+2025-06-24 16:14:42,762 - INFO - Epoch 2/50 | Train Loss: 0.6514 | Val Loss: 0.5769 | Train IoU: 0.3082 | Val IoU: 0.3731 | Train Dice: 0.3465 | Val Dice: 0.4156
+2025-06-24 16:14:42,922 - INFO - Saved best model with Val IoU: 0.3731
+2025-06-24 16:15:17,657 - INFO - Epoch 3/50 | Train Loss: 0.6063 | Val Loss: 0.5582 | Train IoU: 0.3456 | Val IoU: 0.3841 | Train Dice: 0.3941 | Val Dice: 0.4344
+2025-06-24 16:15:17,784 - INFO - Saved best model with Val IoU: 0.3841
+2025-06-24 16:15:51,865 - INFO - Epoch 4/50 | Train Loss: 0.5875 | Val Loss: 0.5444 | Train IoU: 0.3454 | Val IoU: 0.4074 | Train Dice: 0.3971 | Val Dice: 0.4528
+2025-06-24 16:15:51,998 - INFO - Saved best model with Val IoU: 0.4074
+2025-06-24 16:16:25,010 - INFO - Epoch 5/50 | Train Loss: 0.5553 | Val Loss: 0.5246 | Train IoU: 0.3710 | Val IoU: 0.4133 | Train Dice: 0.4285 | Val Dice: 0.4693
+2025-06-24 16:16:25,112 - INFO - Saved best model with Val IoU: 0.4133
+2025-06-24 16:16:58,399 - INFO - Epoch 6/50 | Train Loss: 0.5599 | Val Loss: 0.5437 | Train IoU: 0.3565 | Val IoU: 0.3861 | Train Dice: 0.4150 | Val Dice: 0.4539
+2025-06-24 16:17:32,127 - INFO - Epoch 7/50 | Train Loss: 0.5673 | Val Loss: 0.6031 | Train IoU: 0.3454 | Val IoU: 0.3360 | Train Dice: 0.4065 | Val Dice: 0.3918
+2025-06-24 16:18:05,729 - INFO - Epoch 8/50 | Train Loss: 0.5634 | Val Loss: 0.5309 | Train IoU: 0.3629 | Val IoU: 0.3805 | Train Dice: 0.4223 | Val Dice: 0.4646
+2025-06-24 16:18:40,697 - INFO - Epoch 9/50 | Train Loss: 0.5670 | Val Loss: 0.4726 | Train IoU: 0.3622 | Val IoU: 0.4402 | Train Dice: 0.4287 | Val Dice: 0.5230
+2025-06-24 16:18:40,806 - INFO - Saved best model with Val IoU: 0.4402
+2025-06-24 16:19:07,202 - INFO - Testing model on video: D:/WORK/project_2004/2406/demo_GUI_train/data/r.mp4
+2025-06-24 16:19:07,202 - INFO - Output video: output/output_segmented_video.mp4
+2025-06-24 16:19:07,202 - INFO - Model path: D:/WORK/project_2004/2406/best_model.pth, num_classes: 4, image_size: [256, 256]
+2025-06-24 16:19:07,820 - INFO - Model loaded and set to evaluation mode on cuda
+2025-06-24 16:19:15,949 - INFO - Epoch 10/50 | Train Loss: 0.5670 | Val Loss: 0.4368 | Train IoU: 0.3620 | Val IoU: 0.4770 | Train Dice: 0.4274 | Val Dice: 0.5584
+2025-06-24 16:19:16,075 - INFO - Saved best model with Val IoU: 0.4770
+2025-06-24 16:19:20,647 - INFO - Processed 100 frames
+2025-06-24 16:19:36,185 - INFO - Processed 200 frames
+2025-06-24 16:19:51,487 - INFO - Processed 300 frames
+2025-06-24 16:19:57,616 - INFO - Epoch 11/50 | Train Loss: 0.4931 | Val Loss: 0.5102 | Train IoU: 0.3948 | Val IoU: 0.4130 | Train Dice: 0.4667 | Val Dice: 0.4874
+2025-06-24 16:20:03,743 - INFO - Processed 400 frames
+2025-06-24 16:20:19,289 - INFO - Processed 500 frames
+2025-06-24 16:20:34,050 - INFO - Processed 600 frames
+2025-06-24 16:20:38,547 - INFO - Epoch 12/50 | Train Loss: 0.4958 | Val Loss: 0.3755 | Train IoU: 0.4081 | Val IoU: 0.5279 | Train Dice: 0.4895 | Val Dice: 0.6198
+2025-06-24 16:20:38,690 - INFO - Saved best model with Val IoU: 0.5279
+2025-06-24 16:20:47,634 - INFO - Processed 700 frames
+2025-06-24 16:21:02,976 - INFO - Processed 800 frames
+2025-06-24 16:21:05,751 - INFO - Finished processing 817 frames in 117.92 seconds
+2025-06-24 16:21:05,751 - INFO - Average FPS: 6.93
+2025-06-24 16:21:05,751 - INFO - Output video saved at: output/output_segmented_video.mp4
+2025-06-24 16:21:16,407 - INFO - Epoch 13/50 | Train Loss: 0.5500 | Val Loss: 0.4058 | Train IoU: 0.3764 | Val IoU: 0.4979 | Train Dice: 0.4452 | Val Dice: 0.5893
+2025-06-24 16:21:49,807 - INFO - Epoch 14/50 | Train Loss: 0.4904 | Val Loss: 0.3911 | Train IoU: 0.4119 | Val IoU: 0.5115 | Train Dice: 0.4981 | Val Dice: 0.6037
+2025-06-24 16:22:24,484 - INFO - Epoch 15/50 | Train Loss: 0.4979 | Val Loss: 0.4386 | Train IoU: 0.4147 | Val IoU: 0.4639 | Train Dice: 0.4974 | Val Dice: 0.5564
+2025-06-24 16:23:00,466 - INFO - Epoch 16/50 | Train Loss: 0.5509 | Val Loss: 0.6525 | Train IoU: 0.3795 | Val IoU: 0.2700 | Train Dice: 0.4494 | Val Dice: 0.3423
+2025-06-24 16:23:37,032 - INFO - Epoch 17/50 | Train Loss: 0.5396 | Val Loss: 0.3787 | Train IoU: 0.3865 | Val IoU: 0.5286 | Train Dice: 0.4604 | Val Dice: 0.6190
+2025-06-24 16:23:37,446 - INFO - Saved best model with Val IoU: 0.5286
+2025-06-24 16:24:13,989 - INFO - Epoch 18/50 | Train Loss: 0.4773 | Val Loss: 0.4242 | Train IoU: 0.4336 | Val IoU: 0.4734 | Train Dice: 0.5178 | Val Dice: 0.5705
+2025-06-24 16:24:50,057 - INFO - Epoch 19/50 | Train Loss: 0.4721 | Val Loss: 0.3719 | Train IoU: 0.4329 | Val IoU: 0.5315 | Train Dice: 0.5153 | Val Dice: 0.6229
+2025-06-24 16:24:50,188 - INFO - Saved best model with Val IoU: 0.5315
+2025-06-24 16:25:26,668 - INFO - Epoch 20/50 | Train Loss: 0.5078 | Val Loss: 0.3455 | Train IoU: 0.4114 | Val IoU: 0.5525 | Train Dice: 0.4872 | Val Dice: 0.6491
+2025-06-24 16:25:27,136 - INFO - Saved best model with Val IoU: 0.5525
+2025-06-24 16:26:00,934 - INFO - Epoch 21/50 | Train Loss: 0.5071 | Val Loss: 0.3730 | Train IoU: 0.4113 | Val IoU: 0.5309 | Train Dice: 0.4880 | Val Dice: 0.6215
+2025-06-24 16:26:35,803 - INFO - Epoch 22/50 | Train Loss: 0.5003 | Val Loss: 0.4293 | Train IoU: 0.4083 | Val IoU: 0.4756 | Train Dice: 0.4896 | Val Dice: 0.5656
+2025-06-24 16:27:11,888 - INFO - Epoch 23/50 | Train Loss: 0.4210 | Val Loss: 0.3656 | Train IoU: 0.4848 | Val IoU: 0.5383 | Train Dice: 0.5779 | Val Dice: 0.6293
+2025-06-24 16:27:47,470 - INFO - Epoch 24/50 | Train Loss: 0.4497 | Val Loss: 0.3510 | Train IoU: 0.4528 | Val IoU: 0.5490 | Train Dice: 0.5375 | Val Dice: 0.6437
+2025-06-24 16:28:21,609 - INFO - Epoch 25/50 | Train Loss: 0.4723 | Val Loss: 0.4328 | Train IoU: 0.4320 | Val IoU: 0.4695 | Train Dice: 0.5126 | Val Dice: 0.5620
+2025-06-24 16:28:56,688 - INFO - Epoch 26/50 | Train Loss: 0.4587 | Val Loss: 0.4233 | Train IoU: 0.4517 | Val IoU: 0.4820 | Train Dice: 0.5413 | Val Dice: 0.5741
+2025-06-24 16:29:32,352 - INFO - Epoch 27/50 | Train Loss: 0.4457 | Val Loss: 0.3673 | Train IoU: 0.4567 | Val IoU: 0.5328 | Train Dice: 0.5394 | Val Dice: 0.6301
+2025-06-24 16:30:07,318 - INFO - Epoch 28/50 | Train Loss: 0.5046 | Val Loss: 0.3753 | Train IoU: 0.4183 | Val IoU: 0.5347 | Train Dice: 0.4955 | Val Dice: 0.6222
+2025-06-24 16:30:43,092 - INFO - Epoch 29/50 | Train Loss: 0.4302 | Val Loss: 0.3679 | Train IoU: 0.4684 | Val IoU: 0.5386 | Train Dice: 0.5547 | Val Dice: 0.6295
+2025-06-24 16:31:18,029 - INFO - Epoch 30/50 | Train Loss: 0.4479 | Val Loss: 0.3475 | Train IoU: 0.4552 | Val IoU: 0.5581 | Train Dice: 0.5408 | Val Dice: 0.6470
+2025-06-24 16:31:18,130 - INFO - Saved best model with Val IoU: 0.5581

@@ -1,0 +1,2 @@
+2025-06-25 16:16:55,897 - ERROR - Clustering error: index 108 is out of bounds for axis 2 with size 33
+2025-06-25 16:19:15,085 - ERROR - Clustering error: 'int' object is not iterable
